@@ -25,6 +25,9 @@ extern Display *dpy;
 extern int scr;
 extern Window root;
 
+extern bool ee_complain;
+extern XErrorEvent *ee_ignored;
+
 // PUBLIC:
 
 //

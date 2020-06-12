@@ -38,6 +38,9 @@ Display *dpy;
 int scr;
 Window root;
 
+bool ee_complain;
+XErrorEvent *ee_ignored;
+
 // PRIVATE
 static XrmDatabase db;
 
